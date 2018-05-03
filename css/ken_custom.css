@@ -1,0 +1,30 @@
+.main_header{
+	background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1030;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+	border-top:2px solid #9C3;
+     height:90px; 
+}
+#main-menu .nav-link.active1 {
+    color: #9C3;
+}
+.nav-link.active1::after {
+  content: "";
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #9C3 transparent transparent transparent;
+}
+.main_carousel img{
+       height:400px;	
+	   width:100%;
+}
+#carousel-area{
+	margin-top:90px;
+}
