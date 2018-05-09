@@ -1,30 +1,113 @@
-.main_header{
-	background: #fff;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1030;
-    box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
-	border-top:2px solid #9C3;
-     height:90px; 
+/* .main_header{ */
+	/* background: #fff; */
+    /* position: fixed; */
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 0; */
+    /* z-index: 1030; */
+    /* box-shadow: 0 0 8px 0 rgba(0,0,0,.2); */
+	/* border-top:2px solid #9C3; */
+     /* height:90px;  */
+/* } */
+/* #main-menu .nav-link.active1 { */
+    /* color: #9C3; */
+/* } */
+/* .nav-link.active1::after { */
+  /* content: ""; */
+    /* position: absolute; */
+    /* top: -10%; */
+    /* left: 40%; */
+    /* border-width: 8px; */
+    /* border-style: solid; */
+    /* border-color: #9C3 transparent transparent transparent; */
+/* } */
+/* .main_carousel img{ */
+       /* height:400px;	 */
+	   /* width:100%; */
+/* } */
+/* #carousel-area{ */
+	/* margin-top:90px; */
+/* } */
+.ken_logo{
+	text-align:center;
 }
-#main-menu .nav-link.active1 {
-    color: #9C3;
+.ken_logo_text h1{
+	padding-top: 13px;
+    font-family: sans-serif !important;
+	    font-weight: bold;
 }
-.nav-link.active1::after {
-  content: "";
-    position: absolute;
-    top: -10%;
-    left: 40%;
-    border-width: 8px;
-    border-style: solid;
-    border-color: #9C3 transparent transparent transparent;
+.ken_logo_text p{
+	    padding-left: 8px;
+    margin-top: -10px;
+    font-weight: bold;
 }
-.main_carousel img{
-       height:400px;	
+/* .navbar-toggleable-sm .navbar-collapse{ */
+	/* width:95%; */
+/* } */
+.main_nav{
+	background-color:#000;
+}
+.login_tab{
+	background-color:#9C3;
+}
+ .main_carousel img{ 
+        height:400px;
 	   width:100%;
+ }
+  /* #carousel-area{ */
+	 /* margin-top:9px; */
+	/* } */
+	
+	
+.contact_details{
+	padding-top:10px;
+}	
+.contact_mail span, .contact_phone span{
+	color:#0078a0;
+	cursor: pointer;
 }
-#carousel-area{
-	margin-top:90px;
+.contact_mail span i, .contact_phone span i{
+	padding-right:10px;
+}
+.login_button{
+	background-color:#0078a0;
+	color:#fff;
+}
+/* .navigation{ */
+	/* padding-top:10px; */
+/* } */
+.main_logo{
+	padding-top:4px;
+}
+.main-header{
+	-webkit-box-shadow: 0px 2px 2px #CCC;
+    -moz-box-shadow: 0px 2px 2px #CCC;
+    box-shadow: 0px 3px 5px #CCC;
+	background-color:#fff;
+}
+.footer_first_text h3{
+	    color: #0078a0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.footer_first_text p{
+	    color: #fff;
+   
+}
+.social-footer{
+	text-align:center;
+}
+.footer_enrol{
+	text-align:center;
+}
+.footer_enrol li{
+               border-bottom: 1px solid #fff;
+    padding: 22PX;
+}
+.footer_enrol li a{
+	font-weight:bold;
+}
+.about_titles h3{
+	 color: #0078a0;
 }

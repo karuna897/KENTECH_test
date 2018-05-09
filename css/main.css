@@ -26,7 +26,7 @@ body {
   opacity: 0.8;
 }
 .section-padding {
-  padding: 110px 0;
+  padding: 50px 0;
 }
 .mt-10 {
   margin-top: 10px;
@@ -113,7 +113,7 @@ button:hover {
   carsoer: pointer;
 }
 .section {
-  padding: 80px 0;
+  padding: 20px 0;
 }
 .input-group-btn button {
   padding: 11px 20px;
@@ -828,12 +828,13 @@ i:hover {
 
 #main-menu ul > li > a {
   background: transparent!important;
-  color: #333;
+  color: #0078a0;
   position: relative;
-  padding: 28px 20px;
-  font-weight: 400;
+     padding: 15px 25px;
+  font-weight: 69000;
   line-height: 18px;
   text-transform: uppercase;
+  font-weight:bold;
 }
 #main-menu ul > .dropdown:hover > ul.dropdown-menu {
   display: block;
@@ -2886,12 +2887,15 @@ h2.widget-title {
 .page-header-content {
   display: table-cell;
   vertical-align: middle;
+  text-align:center;
 }
 .page-header-content h2 {
-  color: #fff;
-  font-size: 36px;
-  font-weight: 600;
-  text-transform: capitalize;
+      color: #0078a0;
+    font-size: 36px;
+    /* font-weight: 600; */
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 18px;
 }
 #google-map-shortcode {
   padding: 0;
