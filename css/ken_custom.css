@@ -110,6 +110,11 @@
 }
 .about_titles h3{
 	 color: #0078a0;
+	 width:100%;
+}
+.about_titles p{
+	
+	 width:100%;
 }
 .student_login_title{
 	 color: #0078a0;
