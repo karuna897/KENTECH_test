@@ -53,8 +53,8 @@ a:hover{
 }
 .page-header-section{background: #f6f6f6;}
 #service-block-main .service-item:hover i{
-	color: #0078a0;
-	border-color: #0078a0;
+	/* color: #0078a0; */
+	/* border-color: #0078a0; */
 }
 #service-block-main .service-item:hover h2{
 	color: #0078a0;
@@ -380,7 +380,7 @@ h2.widget-title {
   background: #0078a0 none repeat scroll 0 0;
 }
 .service-item .icon-wrapper i {
-  color: #0078a0;
+  color: #ff3333;
 }
 .split .details-list h3 {
   color: #0078a0;
@@ -396,7 +396,7 @@ h2.widget-title {
   border: 1px solid #0078a0;
 }
 .featured-box .featured-icon i {
-  color: #0078a0;
+  color: #ff3434;
 }
 #team .team-item figure figcaption .orange-line {
   background: #0078a0 none repeat scroll 0 0;

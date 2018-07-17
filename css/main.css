@@ -65,7 +65,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Muli', sans-serif;
+  /* font-family: 'Muli', sans-serif; */
   font-weight: 400;
 }
 p {
@@ -304,12 +304,13 @@ i:hover {
   border: 1px solid #444;
 }
 .section-title {
-  text-align: center;
-  font-size: 38px;
-  line-height: 40px;
-  color: #000;
-  font-family: 'Muli', sans-serif;
-  padding: 10px 0;
+text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+    color: #ff3333;
+    /* font-family: 'Muli', sans-serif; */
+    padding: 10px 0;
+       font-weight: 550;
 }
 .section-subcontent {
   text-align: center;
@@ -1051,6 +1052,7 @@ ul li > ul > li.active > a {
   -moz-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  color:#0078a0;
 }
 .service-item p {
   font-size: 13px;
@@ -1130,6 +1132,8 @@ ul li > ul > li.active > a {
   padding-left: 40px;
 }
 .featured-box .featured-content h4 {
+	padding-top:8px;
+	color:#0078a0;
   font-size: 22px;
   margin-bottom: 10px;
   transition: all 0.4s ease-in-out;
