@@ -4,17 +4,18 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #666;
+  color: #000;
   overflow-x: hidden;
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+    font-family: 'DIN 1451' !important;
 }
 .form-group .help-block {
   color: red;
@@ -67,11 +68,14 @@ h3,
 h4 {
   /* font-family: 'Muli', sans-serif; */
   font-weight: 400;
+      font-family: 'DIN 1451' !important;
 }
 p {
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  /* font-family: 'Open Sans', sans-serif; */
   font-weight: 300;
+    
+	 
 }
 a {
   
@@ -834,7 +838,8 @@ text-align: center;
      padding: 15px 25px;
   font-weight: 69000;
   line-height: 18px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-size:20px;
   font-weight:bold;
 }
 #main-menu ul > .dropdown:hover > ul.dropdown-menu {
@@ -854,7 +859,7 @@ text-align: center;
   box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 #main-menu ul .dropdown .dropdown-menu a {
-  font-size: 13px;
+  font-size: 16px;
   color: #666;
   display: block;
   height: auto;
