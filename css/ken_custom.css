@@ -260,4 +260,14 @@
 .contact_details{
 	font-size:16px;
 }
-
+.Time_tabel thead tr th{
+	color:#ff3333;
+	    border: 1px solid #0f80a6;
+}
+.Time_tabel tbody tr td{
+	color:#0078a0;
+	    border: 1px solid #0f80a6;
+}
+.Time_tabel{
+	box-shadow: 0px 0px 1px #0078a0;
+}
